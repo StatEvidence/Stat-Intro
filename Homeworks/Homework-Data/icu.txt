@@ -1,0 +1,41 @@
+
+Code Sheet for the ICU Study 
+
+Variable	Description		Codes/Values			Name
+1		Identification Code	ID Number			ID
+2		Vital Status		0 = Lived,1= Died		STA
+3		Age			Years				AGE
+4		Sex			0 = Male1 = Female		SEX
+5		Race			1 = White, 2= Black, 3 = Other	RACE
+6		Service at ICU 		0 = Medical, 1 = Surgical	SER
+		Admission
+7		Cancer Part of		0 = No, 1 = Yes			CAN
+		Present Problem
+8		History of Chronic	0 = No, 1 = Yes			CRN
+		Renal Failure
+9		Infection Probable	0 = No, 1 = Yes			INF
+		at ICU Admission
+10		CPR Prior to ICU 	0 = No, 1 = Yes			CPR
+		Admission
+11		Systolic Blood Pressure	mm Hg				SYS
+		at ICU Admission
+12		Heart Rate 		Beats/min			HRA
+		at ICU Admission
+13		Previous Admission to 	0 = No, 1 = Yes			PRE
+		an ICU Within 6 Months
+14		Type of Admission	0 = Elective, 1 = Emergency	TYP
+15		Long Bone, Multiple, 	0 = No, 1 = Yes			FRA
+		Neck, Single Area, or
+		Hip Fracture
+16		PO2 from Initial 	0 = >60, 1 = <= 60		PO2
+		Blood Gases
+17		PH from Initial 	0 = >= 7.25 1 = < 7.25		PH
+		Blood Gases
+18		PCO2 from Initial 	0 = <=45, 1 > 45 		PCO
+		Blood Gases
+19 		Bicarbonate from 	0 = >=18, 1 <18			BIC
+		Initial Blood Gases
+20 		Creatinine from 	0 = <=2, 1 >2			CRE
+		Initial Blood Gases
+21		Level of Consciousness 	0 = No Coma or Deep Stupor,	LOC
+		at ICU Admission 	1 = Deep Stupor, 2= Coma
